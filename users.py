@@ -25,6 +25,17 @@ users = [
     },
 ]
 
+males = 0
+females = 0
+n = len(users)
 
-youngest = max(users, key=lambda user: len(user['first_name']))
-print(youngest)
+for user in users:
+    if user['gender'] == "Male":
+        males += 1
+    elif user['gender'] == "Female":
+        females += 1
+
+percent_male = round(males / n * 100, 2)
+percent_female = round(females / n * 100, 2)
+
+print(f"Hisobor:\n\tErkaklar: {males}, {percent_male}%\n\tAyollar: {females}, {percent_female}%")

@@ -43,7 +43,6 @@ data = [
 # 4 - barcha "full_name" keylari ni o'rniga "FIO" ga almashtiring 
 # value lar o'chib ketmasin
 
-
 # 5 - masala "position" keyning "valuesida" -> "senior" yoki "junior"
 # satri bor barcha hodimlarni o'chirib tashlang
 
